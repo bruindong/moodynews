@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+
+
+
+
+/* background - black rectangle */
+.rectangle2 {
+  width: 375px;
+  height: 726px;
+  background: #052005;
+}
+
+/* header - green rectangle */
+.rectangle1 {
+  width : 375px;
+  height: 86px;
+  background: #aff963;
+  display: inline-block;
+}
+
+.label-header {
+  font: 30px "Abril Fatface", "AmericanTypewriter";
+  margin-left: 160px;
+  margin-top: 37px;
+}
+
+
+
+.label-headline {
+  width: 327px;
+  /* height: 152px; */
+  font: 26px "American Typewriter";
+  color: #aff963;
+  margin-top: 14px;
+  margin-left: 24px;
+}
+
+.dotted-line {
+  width: 326px;
+  /* height: 1px; */
+  border-style: dotted;
+  border-width: 1px;
+  border-color: #b8e986;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.label-article-headline {
+  width: 263px;
+  font: 14px "Courier New";
+  font-weight: bold;
+  color: #aff963;
+  margin-top: 24px;
+  margin-left: 88px;
+}
+
+
+
+/*
+.label-header {
+  width: 200px;
+  height: 41px;
+  font: 30px "Abril Fatface", "AmericanTypewriter";
+  font-weight: normal;
+  text-align: right;
+  margin-left: 160px;
+  margin-top: 37px;
+}
+*/
+
+
+.rectangle5 {
+  width: 24px;
+  height: 4px;
+  background: #052005;
+  margin-left: 25px;
+  margin-top: 56px;
+}
+
+
+
+/* --------- */
+
+.rectangle-background {
+  width: 375px;
+  height: 1525px;
+  background: #aff963;
+}
+
+.header-row {
+  width: 375px;
+  height: 86px;
+  display: inline-block;
+}
+
+.label-menu-bar {
+  width: 24px;
+  height: 4px;
+  background: #052005;
+  margin-top: 70px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.label-menu {
+  width: 50px;
+  height: 41px;
+  font: 16px "Courier New";
+  font-weight: bold;
+  display: inline-block;
+  /* margin-top: 60px; */
+  margin-left: 8px;
+}
+
+.label-header-1 {
+  width: 200px;
+  height: 41px;
+  font: 30px "Abril Fatface", "AmericanTypewriter";
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.rectangle-headline {
+  width: 375px;
+  height: 295px;
+  background: #052005;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.datetime_row {
+  width: 375px;
+  display: inline-block;
+}
+
+.label-time {
+  width: 68px;
+  height: 18px;
+  font: 14px "Courier New";
+  font-weight: bold;
+  color: #aff963;
+  margin-top: 34px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.label-date {
+  width: 68px;
+  height: 18px;
+  font: 14px "Courier New";
+  font-weight: bold;
+  color: #aff963;
+  margin-top: 34px;
+  margin-left: 190px;
+  display: inline-block;
+}
