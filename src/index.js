@@ -233,7 +233,16 @@ class MoodyNews extends React.Component {
           </div>
           <div className="label-headline">{this.state.hl_headline_0}</div>
           <div className="dotted-line"></div>
-          <div className="label-article-headline">{this.state.a_headline_0}</div>
+          <div className="article-row">
+            <div className="article-source"></div>
+            <div className="label-article-headline">{this.state.a_headline_0}</div>
+          </div>
+          <div className="reactions-row">
+            <div className="reaction-button">Paradise City</div>
+            <div className="reaction-button">Love in the Air</div>
+            <div className="reaction-button">Get Canned Foods</div>
+            <div className="reaction-button">Go in Bunker</div>
+          </div>
         </div>
         <div className="rectangle-headline">
           <div className="datetime_row">
@@ -242,7 +251,16 @@ class MoodyNews extends React.Component {
           </div>
           <div className="label-headline">{this.state.hl_headline_1}</div>
           <div className="dotted-line"></div>
-          <div className="label-article-headline">{this.state.a_headline_1}</div>
+          <div className="article-row">
+            <div className="article-source"></div>
+            <div className="label-article-headline">{this.state.a_headline_1}</div>
+          </div>
+          <div className="reactions-row">
+            <div className="reaction-button">Paradise City</div>
+            <div className="reaction-button">Love in the Air</div>
+            <div className="reaction-button">Get Canned Foods</div>
+            <div className="reaction-button">Go in Bunker</div>
+          </div>
         </div>
         <div className="rectangle-headline">
           <div className="datetime_row">
@@ -251,7 +269,16 @@ class MoodyNews extends React.Component {
           </div>
           <div className="label-headline">{this.state.hl_headline_2}</div>
           <div className="dotted-line"></div>
-          <div className="label-article-headline">{this.state.a_headline_2}</div>
+          <div className="article-row">
+            <div className="article-source"></div>
+            <div className="label-article-headline">{this.state.a_headline_2}</div>
+          </div>
+          <div className="reactions-row">
+            <div className="reaction-button">Paradise City</div>
+            <div className="reaction-button">Love in the Air</div>
+            <div className="reaction-button">Get Canned Foods</div>
+            <div className="reaction-button">Go in Bunker</div>
+          </div>
         </div>
         <div className="rectangle-headline">
           <div className="datetime_row">
@@ -260,7 +287,16 @@ class MoodyNews extends React.Component {
           </div>
           <div className="label-headline">{this.state.hl_headline_3}</div>
           <div className="dotted-line"></div>
-          <div className="label-article-headline">{this.state.a_headline_3}</div>
+          <div className="article-row">
+            <div className="article-source"></div>
+            <div className="label-article-headline">{this.state.a_headline_3}</div>
+          </div>
+          <div className="reactions-row">
+            <div className="reaction-button">Paradise City</div>
+            <div className="reaction-button">Love in the Air</div>
+            <div className="reaction-button">Get Canned Foods</div>
+            <div className="reaction-button">Go in Bunker</div>
+          </div>
         </div>
         <div className="rectangle-headline">
           <div className="datetime_row">
@@ -269,8 +305,19 @@ class MoodyNews extends React.Component {
           </div>
           <div className="label-headline">{this.state.hl_headline_4}</div>
           <div className="dotted-line"></div>
-          <div className="label-article-headline">{this.state.a_headline_4}</div>
+          <div className="article-row">
+            <div className="article-source"></div>
+            <div className="label-article-headline">{this.state.a_headline_4}</div>
+          </div>
+          <div className="reactions-row">
+            <div className="reaction-button">Paradise City</div>
+            <div className="reaction-button">Love in the Air</div>
+            <div className="reaction-button">Get Canned Foods</div>
+            <div className="reaction-button">Go in Bunker</div>
+          </div>
         </div>
+
+
       </div>
 
     );

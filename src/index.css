@@ -97,14 +97,7 @@ ol, ul {
   margin-left: 24px;
 }
 
-.label-article-headline {
-  width: 263px;
-  font: 14px "Courier New";
-  font-weight: bold;
-  color: #aff963;
-  margin-top: 24px;
-  margin-left: 88px;
-}
+
 
 
 
@@ -174,7 +167,7 @@ ol, ul {
 
 .rectangle-headline {
   width: 375px;
-  height: 295px;
+  height: 365px;
   background: #052005;
   margin-top: 4px;
   display: inline-block;
@@ -204,5 +197,51 @@ ol, ul {
   color: #aff963;
   margin-top: 34px;
   margin-left: 190px;
+  display: inline-block;
+}
+
+.reactions-row {
+  width: 375px;
+  margin-top: 30px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.reaction-button {
+  width: 75px;
+  height: 28px;
+  font: 12px "Courier New";
+  font-weight: bold;
+  color: #1f1a00;
+  text-align: center;
+  vertical-align: center;
+  background: #ffda00;
+  border-radius: 4px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.article-row {
+  width: 375px;
+  display: inline-block;
+}
+
+.article-source {
+  width: 48px;
+  height: 48px;
+  background: #aff963;
+  border-radius: 4px;
+  margin-left: 24px;
+  margin-top: 24px;
+  display: inline-block;
+}
+
+.label-article-headline {
+  width: 250px; /* 263 */
+  font: 14px "Courier New";
+  font-weight: bold;
+  color: #aff963;
+  margin-top: 0px;  /* 24 */
+  margin-left: 20px; /* 88 */
   display: inline-block;
 }
