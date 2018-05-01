@@ -315,6 +315,14 @@ class MoodyNews extends React.Component {
             <div className="reaction-button">Get Canned Foods</div>
             <div className="reaction-button">Go in Bunker</div>
           </div>
+          <div className="the-footer">
+            <div className="reactions-row">
+            <div className="reaction-button">Paradise City</div>
+            <div className="reaction-button">Love in the Air</div>
+            <div className="reaction-button">Get Canned Foods</div>
+            <div className="reaction-button">Go in Bunker</div>
+            </div>
+          </div>
         </div>
 
 

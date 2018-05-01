@@ -130,6 +130,7 @@ ol, ul {
   width: 375px;
   height: 1525px;
   background: #aff963;
+  padding-bottom: 60px;
 }
 
 .header-row {
@@ -244,4 +245,14 @@ ol, ul {
   margin-top: 0px;  /* 24 */
   margin-left: 20px; /* 88 */
   display: inline-block;
+}
+
+.the-footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 375px;
+  height: 60px;
+  background: #aff963;
 }
